@@ -37,7 +37,8 @@ window.addEventListener("load", () => {
 
   //Craete Events clicks from buttons
   btn.addEventListener("click", (e) => {
-    getGif();
+    //Storage the class when do create news elements imgs
+    getGif(classNameCurrent);
   });
 
   btn25.addEventListener("click", (e) => {
